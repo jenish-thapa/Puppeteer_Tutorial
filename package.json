@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jenish-thapa/Puppeteer_Tutorial/issues"
   },
-  "homepage": "https://github.com/jenish-thapa/Puppeteer_Tutorial#readme"
+  "homepage": "https://github.com/jenish-thapa/Puppeteer_Tutorial#readme",
+  "dependencies": {
+    "puppeteer": "^22.14.0"
+  }
 }
