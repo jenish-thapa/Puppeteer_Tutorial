@@ -19,13 +19,13 @@ puppeteer.use(StealthPlugin());
   // Type the email into the input field
   await page.type(
     'input[data-e2e="login-email-input"]',
-    "2023ebcs641@online.bits-pilani.ac.in"
+    "example@gmail.com"
   );
 
   await page.waitForSelector('input[data-e2e="login-password-input"]');
 
   // Type the email into the input field
-  await page.type('input[data-e2e="login-password-input"]', "Ep$18112005");
+  await page.type('input[data-e2e="login-password-input"]', "iusdcliej");
 
   await page.keyboard.press("Enter");
 
